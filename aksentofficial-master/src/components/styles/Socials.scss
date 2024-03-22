@@ -1,0 +1,44 @@
+@import './Home.scss';
+
+.bottom-container {
+  margin-top: 1%;
+  background: white;
+  padding: 20px 50px;
+  overflow: hidden;
+}
+
+.rights-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-top: 1%;
+}
+a.social {
+  margin: 0 2rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.facebook {
+  color: #4968ad;
+}
+
+a.instagram {
+  color: black;
+}
+
+a.shopee {
+  color: #ff2d26;
+}
+
+a.logo {
+  margin-left: 2%;
+  margin-right: 2%;
+}
